@@ -23,13 +23,3 @@ std::string encryptCaesar(std::string plaintext, int rshift) {
 	return result;
 }//end encryptCaesar function
 
-
-
-/*
-	if ((c >= 'A') && (c <= 'Z') || (c >= 'a' && c <= 'z')) {
-
-	}
-	else {
-		return c;
-	}
-*/

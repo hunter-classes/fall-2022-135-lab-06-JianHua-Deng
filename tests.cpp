@@ -3,6 +3,7 @@
 #include "funcs.h"
 #include "caesar.h"
 #include "vigenere.h"
+#include "decrypt.h"
 
 // add your tests here
 
@@ -24,3 +25,8 @@ TEST_CASE("vigenere.cpp"){
 	CHECK(encryptVigenere("Considerate", "Persona") == "Rsekwqegekw");
 	CHECK(encryptVigenere("FUNNY, But we are going to attack at dawn!!!!", "strike") == "XNEVI, Fmm nm kvw zfqxk lh rbdeud rb neog!!!!");
 }//end of test cases
+
+TEST_CASE("decrypt.cpp"){
+	CHECK(decryptCaesar("Rovvy, Gybvn!", 10) == "Hello, World!");
+	CHECK(decryptVigenere("Jevpq, Wyvnd!", "cake") == "Hello, World!");
+}//end test cases
