@@ -9,7 +9,7 @@ int returnAlphabetical(char c){
         return (c - 'a') % 26;
     }//end of all condition
     return -1;
-}//end 
+}//end of returnAlphabetical
 
 char shiftCharVigenere(char c, int rshift) {
 	char result;
