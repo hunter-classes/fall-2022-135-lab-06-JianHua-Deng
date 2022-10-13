@@ -10,7 +10,7 @@ int main()
 	std::cout << encryptCaesar("Ore Ga Sugoi!!", 3) << std::endl;
 	std::cout << returnAlphabetical('z') << std::endl;
 	std::cout << encryptVigenere("Hello, World!", "cake") << std::endl;//Jevpq, Wyvnd!
-	std::cout << decryptCaesar("Ahdsrw wx Tnw fx Tdajn", 9) << std::endl;
-	std::cout << decryptVigenere("mk pf hn bpm pc cx", "TwoB") << std::endl;
+	std::cout << decryptCaesar("Rovvy, Gybvn!", 10) << std::endl; //Hello World!
+	std::cout << decryptVigenere("Jevpq, Wyvnd!", "cake") << std::endl;//Hello, World!
 	return 0;
 }
